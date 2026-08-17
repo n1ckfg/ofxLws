@@ -105,6 +105,9 @@ vs:
 	# ADDON_LIBS += libs/libwebsockets/lib/vs/x64/Release/ZLIB.lib
 
 
+linuxaarch64:
+	ADDON_LDFLAGS = -lwebsockets
+
 linuxarmv6l:
 	#ADDON_LDFLAGS = -lwebsockets -lssl
 	# ADDON_SOURCES_EXCLUDE = libs/libwebsockets/include/win32port/%
